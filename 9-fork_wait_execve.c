@@ -19,7 +19,7 @@ int main()
 
 	i = 1;
 
-	while (i < 5)
+	while (i < 6)
 	{
 		child_pid = fork();
 		if (child_pid == -1)
